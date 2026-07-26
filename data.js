@@ -2,17 +2,97 @@ const lessonTitle = "淘气的鞋";
 
 const lessonData = [
     // ===== 第1段 =====
+    ["你", "nǐ", "you", "awak"],
+    ["晚上", "wǎn shàng", "at night", "pada waktu malam"],
+    ["穿着", "chuān zhe", "wear", "memakai"],
+    ["鞋", "xié", "shoes", "kasut"],
+    ["睡觉", "shuì jiào", "sleep", "tidur"],
+    ["吗", "ma", "", ""],
+    ["？", "", "", ""],
+    ["当然", "dāng rán", "Of course", "Tentu"],
+    ["不", "bù", "not", "tidak"],
+    ["！", "", "", ""],
+    ["那么", "nà me", "Then", "Jadi"],
+    ["，", "", "", ""],
+    ["鞋子", "xié zi", "shoes", "kasut"],
+    ["也", "yě", "also", "juga"],
+    ["睡觉", "shuì jiào", "sleep", "tidur"],
+    ["吗", "ma", "", ""],
+    ["？", "", "", ""],
+    ["也不", "yě bù", "also not", "juga tidak"],
+    ["！", "", "", ""],
+    ["鞋子", "xié zi", "Shoes", "Kasut"],
+    ["永远", "yǒng yuǎn", "forever", "selama-lamanya"],
+    ["精力充沛", "jīng lì chōng pèi", "energetic", "bertenaga"],
+    ["呢", "ne", "", ""],
+    ["！", "", "", ""],
+    ["不信", "bù xìn", "Don't believe", "Tak percaya"],
+    ["？", "", "", ""],
+    ["你听", "nǐ tīng", "listen", "dengar"],
+    ["！", "", "", ""],
+
+    ["\n", "", "", ""], // 👈 第2段
+
+    ["有一天", "yǒu yī tiān", "One day", "Pada suatu hari"],
+    ["晚上", "wǎn shàng", "night", "malam"],
+    ["，", "", "", ""],
+    ["爸爸", "bà ba", "Dad's", "Ayah punya"],
+    ["左脚的鞋", "zuǒ jiǎo de xié", "left shoe", "kasut kiri"],
+    ["告诉", "gào su", "told", "memberitahu"],
+    ["右脚的鞋", "yòu jiǎo de xié", "right shoe", "kasut kanan"],
+    ["：", "", "", ""],
     ["“", "", "", ""],
-    ["跟我", "gēn wǒ", "Follow me", "Ikut saya"],
+    ["我", "wǒ", "I", "Saya"],
+    ["每天", "měi tiān", "every day", "setiap hari"],
+    ["都", "dōu", "always", "sentiasa"],
+    ["跟着", "gēn zhe", "follow", "mengikuti"],
+    ["主人", "zhǔ rén", "master", "tuan"],
+    ["到处", "dào chù", "everywhere", "ke mana-mana"],
+    ["走", "zǒu", "walk", "berjalan"],
+    ["，", "", "", ""],
+    ["觉得", "jué de", "feel", "rasa"],
+    ["烦透了", "fán tòu le", "fed up", "bosan"],
+    ["。", "", "", ""],
+    ["他", "tā", "He", "Dia"],
+    ["一天到晚", "yī tiān dào wǎn", "all day long", "sepanjang hari"],
+    ["想到哪儿", "xiǎng dào nǎ r", "want to go where", "mahu ke mana"],
+    ["，", "", "", ""],
+    ["我", "wǒ", "I", "saya"],
+    ["就得", "jiù déi", "have to", "perlu"],
+    ["跟到哪儿", "gēn dào nǎ r", "follow where", "ikut ke mana"],
+    ["——", "", "", ""],
+    ["从", "cóng", "from", "dari"],
+    ["这儿", "zhè r", "here", "sini"],
+    ["到那儿", "dào nà r", "to there", "ke sana"],
+    ["，", "", "", ""],
+    ["从楼上", "cóng lóu shàng", "from upstairs", "dari atas"],
+    ["到楼下", "dào lóu xià", "to downstairs", "ke bawah"],
+    ["，", "", "", ""],
+    ["从屋里", "cóng wū lǐ", "from inside the house", "dari dalam rumah"],
+    ["到屋外", "dào wū wài", "to outside the house", "ke luar rumah"],
+    ["。", "", "", ""],
+    ["唉", "āi", "Alas", "Alamak"],
+    ["！", "", "", ""],
+    ["这回", "zhè huí", "this time", "kali ini"],
+    ["我", "wǒ", "I", "saya"],
+    ["要走", "yào zǒu", "want to go", "mahu berjalan"],
+    ["自己的路", "zì jǐ de lù", "my own way", "jalan sendiri"],
+    ["！”", "", "", ""],
+
+    ["\n", "", "", ""], // 👈 第3段
+
+    ["“", "", "", ""],
+    ["我", "wǒ", "I", "Saya"],
     ["跟你", "gēn nǐ", "with you", "dengan awak"],
-    ["一起去", "yì qǐ qù", "go together", "pergi bersama"],
+    ["一起", "yī qǐ", "together", "bersama"],
+    ["去", "qù", "go", "pergi"],
     ["。”", "", "", ""],
     ["右脚的鞋", "yòu jiǎo de xié", "The right shoe", "Kasut kanan"],
     ["连忙", "lián máng", "hurriedly", "segera"],
     ["说", "shuō", "said", "berkata"],
     ["。", "", "", ""],
 
-    ["\n", "", "", ""], // 👈 第2段
+    ["\n", "", "", ""], // 👈 第4段
 
     ["它们俩", "tā men liǎ", "The two of them", "Mereka berdua"],
     ["从", "cóng", "from", "dari"],
@@ -42,7 +122,7 @@ const lessonData = [
     ["门", "mén", "door", "pintu"],
     ["撞开", "zhuàng kāi", "broke open", "langgar buka"],
     ["，", "", "", ""],
-    ["一起", "yì qǐ", "together", "bersama"],
+    ["一起", "yī qǐ", "together", "bersama"],
     ["加入", "jiā rù", "joined", "menyertai"],
     ["它们的行列", "tā men de háng liè", "their ranks", "barisan mereka"],
     ["，", "", "", ""],
@@ -69,12 +149,12 @@ const lessonData = [
     ["，", "", "", ""],
     ["仿佛", "fǎng fú", "as if", "seolah-olah"],
     ["组成", "zǔ chéng", "forming", "membentuk"],
-    ["了一支", "le yì zhī", "a", "sebuah"],
+    ["了一支", "le yī zhī", "a", "sebuah"],
     ["声势浩大的", "shēng shì hào dà de", "mighty", "yang hebat"],
     ["巡逻队", "xún luó duì", "patrol team", "pasukan rondaan"],
     ["。", "", "", ""],
 
-    ["\n", "", "", ""], // 👈 第3段
+    ["\n", "", "", ""], // 👈 第5段
 
     ["“", "", "", ""],
     ["你在哪儿", "nǐ zài nǎ r", "Where are you", "Awak di mana"],
@@ -109,7 +189,7 @@ const lessonData = [
     ["闹哄哄的", "nào hōng hōng de", "noisy", "riuh-rendah"],
     ["。", "", "", ""],
 
-    ["\n", "", "", ""], // 👈 第4段
+    ["\n", "", "", ""], // 👈 第6段
 
     ["“", "", "", ""],
     ["别找了", "bié zhǎo le", "Stop looking", "Jangan cari"],
@@ -127,7 +207,7 @@ const lessonData = [
     ["各自独立", "gè zì dú lì", "independent", "berdiri sendiri"],
     ["。”", "", "", ""],
 
-    ["\n", "", "", ""], // 👈 第5段
+    ["\n", "", "", ""], // 👈 第7段
 
     ["队伍", "duì wǔ", "The procession", "Perarakan"],
     ["继续", "jì xù", "continued", "terus"],
@@ -182,7 +262,7 @@ const lessonData = [
     ["黑暗", "hēi àn", "darkness", "kegelapan"],
     ["。", "", "", ""],
 
-    ["\n", "", "", ""], // 👈 第6段
+    ["\n", "", "", ""], // 👈 第8段
 
     ["“", "", "", ""],
     ["我们", "wǒ men", "We", "Kita"],
@@ -204,9 +284,6 @@ const lessonData = [
     ["惊恐万状", "jīng kǒng wàn zhuàng", "panic-stricken", "kecoh"],
     ["的混乱", "de hùn luàn", "chaos", "kekacauan"],
     ["。", "", "", ""],
-
-    ["\n", "", "", ""], // 👈 第7段
-
     ["乱了方寸", "luàn le fāng cùn", "Panicked", "Hilang arah"],
     ["的鞋", "de xié", "shoes", "kasut-kasut"],
     ["顿时", "dùn shí", "immediately", "serta-merta"],
@@ -236,9 +313,6 @@ const lessonData = [
     ["纠缠在", "jiū chán zài", "tangled", "terbelit"],
     ["一起了", "yī qǐ le", "together", "bersama"],
     ["。", "", "", ""],
-
-    ["\n", "", "", ""], // 👈 第8段
-
     ["太阳", "tài yáng", "The sun", "Matahari"],
     ["越升越高", "yuè shēng yuè gāo", "rose higher and higher", "semakin naik"],
     ["，", "", "", ""],
@@ -407,10 +481,13 @@ const lessonData = [
     ["\n", "", "", ""], // 👈 出处
 
     ["（", "", "", ""],
-    ["尤今", "yóu jīn", "You Jin", "You Jin"],
+    ["比盖尔", "bǐ gài ěr", "Biegel", "Biegel"],
     ["《", "", "", ""],
     ["淘气的鞋", "táo qì de xié", "Naughty Shoes", "Kasut Nakal"],
     ["》", "", "", ""],
+    ["，", "", "", ""],
+    ["宋兴蕴", "sòng xīng yùn", "Song Xingyun", "Song Xingyun"],
+    ["译", "yì", "translated by", "terjemahan oleh"],
     ["，", "", "", ""],
     ["有", "yǒu", "with", "ada"],
     ["改动", "gǎi dòng", "adaptations", "ubah suai"],
